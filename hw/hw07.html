@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>form</title>
+    <style>
+      
+    </style>
+</head>
+<body>
+<header>
+           <div id ="headA">
+                <a href="index.html" alt="index">
+                    <img src="./img/yumi.png" width="100px" height="80px">
+                </a>
+           </div>
+           
+           <div id="nav">
+                <ul id="h_menu">
+                    <li>
+                        <a href="profile.html" alt="profiles">
+                            <img src="./img/과제00.png" width="100px" height="40px">
+                        </a>
+                    </li>
+                    <li>    
+                        <a href="hw01.html" alt="과제1">
+                            <img src="./img/과제01.png" width="100px" height="40px">
+                        </a>
+                    </li>
+                    <li>  
+                        <a href="hw02.html" alt="과제2">
+                            <img src="./img/과제02.png "width="100px" height="40px">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="hw03.html" alt="과제3">
+                            <img src="./img/과제03.png" width="100px" height="40px">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="hw04.html" alt="과제4">
+                            <img src="./img/과제04.png" width="100px" height="40px"></a>
+                    </li>
+                    <li>
+                        <a href="hw05.html" alt="과제5">
+                            <img src="./img/과제05.png" width="100px" height="40px">
+                        </a>
+                    </li>
+                   <li>
+                        <a href="hw06.html" alt="과제6">
+                            <img src="./img/과제06.png" width="100px" height="40px">
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="portfolio.html" alt="portfolio">
+                            <img src="./img/과제000.png" width="100px" height="40px">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="hw07.html" alt="contact">
+                            <img src="./img/과제07.png" width="100px" height="40px">
+                        </a>
+                    </li>    
+                </ul>
+           </div>
+        </header>   
+        
+        <section id="section">
+            <h1 id="contact">Give me your opinion </h1>
+                <h5>방문해 주셔서 감사합니다 저에 대해 의견이 있으시면 보내주시기 바랍니다</h5>
+        
+    <!--    폼 시작    -->
+        <form>
+            <table>
+                <tr>
+                    <td>이름</td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td>이메일</td>
+                    <td>
+                        <input type="text" name="mail">
+                        @
+                        <select name="emailsite">
+                            <option value="none">이메일주소</option>
+                            <option value="naver">gmail.com</option>
+                            <option value="google">naver.com</option>
+                            <option value="daum">daum.net</option>
+                            <option value="site">직접 입력</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>제목</td>
+                    <td><input type="text" name="title"></td>
+                </tr>
+                <tr>
+                    <td>내용</td>
+                    <td><textarea name="message" id="" cols="50" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="전송" class="button">
+                        <input type="reset" value="재설정" class="button"></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+    <footer>
+            <div id="footer">     
+                 <span>
+                     Copyright &copy; <a href="" class="site"></a>
+                     yumi ALL rights reserved.    
+                 </span>
+            </div>    
+    </footer>
+
+</body>
+
+
+
+
+
+<style>
+     body{
+            text-align:left;    
+            font-family: 'Noto Sans CJK KR', sans-serif;
+            } 
+        
+            /* 헤더 */
+            header{
+               /* max-width:1200px; */   
+            }
+
+            /* 사이트 로고 */
+            #headA{
+               max-width:300px;
+               float:left;
+               padding-top:10px;
+            }
+
+            #headA a{
+                margin-left:10px;
+                margin-right:30px;
+                margin-bottom:5px;
+            }
+
+            #headA a:hover {
+                filter: alpha(opacity=50); opacity: 0.5;
+            } 
+
+            /* 과제 메뉴 시작*/
+            #nav{
+                text-align:right;
+                padding-top:4px;
+                padding-bottom:10px;
+                padding-right:65px;
+            }
+
+            #h_menu li {
+                display: inline-block;
+                padding-left:35px;
+            }
+
+            #h_menu a:hover {
+                filter: alpha(opacity=50); opacity: 0.5;
+            }        
+            /* 내용정렬 */
+            #section{
+                margin-left: 200px;
+                margin-right: 200px;
+                margin-top: 100px;
+                margin-bottom: 50px;
+            }
+
+            /*    폼css  */
+            form {
+                    margin-top:100px;
+                    margin-bottom:100px;
+                    font-size: 14px;
+                    height: 340px;
+                }
+
+            table {
+                    margin: 0 auto;
+                    width: 450px;
+                }
+
+            td {
+                    padding-top: 10px;
+                }
+          
+         /* 저작권 */
+            #footer{
+            border:2px dotted darkgray;
+            padding: 20px;
+            padding-left: 20px;
+            }
+        
+            span{
+            font-size:14px;
+            color:darkgray;
+            float:left;
+            }
+</style>
+
+</html>

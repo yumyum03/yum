@@ -1,0 +1,21 @@
+/* style.css */
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family:  'arial', 'Noto Sans CJK KR', sans-serif;
+        font-size: 15px;
+        color: black;
+        margin: 5px;
+        background color:white;  
+    }
+
+
+    #wrapper {
+        width: 900px;
+        margin: 0 auto;
+        margin-top: 50px;
+        text-align: center;
+    }

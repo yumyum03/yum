@@ -1,0 +1,58 @@
+@media (min-width: 768px) {
+    .conB .container {
+        display: flex;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+    }
+    .conB .text {
+        flex: 2;
+    }
+    /*   슬라이더   */
+    #slider {
+        width: 600px;
+        height: auto;
+        margin: auto;
+        background-color: rgb(0, 0, 0);
+        position: inherit;
+        margin-bottom: 100px;
+    }
+    /*   개요   */
+    .conB {
+        margin-bottom: 100px;
+    }
+    .conB .container .text {
+        padding: 40px;
+        text-align: center;
+    }
+    .conB .container .text .fas {
+        font-size: 50px;
+        color: orange;
+        transform: scale(1.2);
+        transition: all 0.5s;
+        margin-bottom: 20px;
+    }
+    .conB .container .text .fas:hover {
+        color: black;
+        }
+    .conB .container .text .title {
+        font-size: 20px;
+        font-weight: bold;
+        border-top: 3px solid yellowgreen;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    .conB .container .text p {
+        height: 50px;
+    }
+    .conB .container .text a {
+        color:#000000;
+        text-decoration-style:bold;
+        font-weight: bold;
+        text-decoration: none;
+        transition: all 0.3s;
+    }
+    .conB .container .text a:hover, a:visited {
+        color: orange;
+    }
